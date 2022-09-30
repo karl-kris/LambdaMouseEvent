@@ -19,7 +19,7 @@ public class LambdaMouseEvent extends Application {
     
     @Override
     public void start(Stage primaryStage) {
-        Text movableText = new Text("Programming is fun!");
+        Text movableText = new Text(100,55,"Programming is fun!");
         
         Pane root = new Pane();
         root.getChildren().addAll(movableText);
